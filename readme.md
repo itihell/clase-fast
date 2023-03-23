@@ -1,3 +1,5 @@
+Renombrar el archivo .env.example a .env y configurar los valores que este trae de ejemplo por los del servidor de configuración
+
 ### Creando el entorno de python
 ````
 python3 -m virtualenv venv
