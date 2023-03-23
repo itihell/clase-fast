@@ -1,7 +1,13 @@
 ### Creando el entorno de python
 ````
 python3 -m virtualenv venv
+
+ó
+
+python -m virtualenv venv
 ````
+
+
 
 ### Instalando dependencias
 ```
@@ -17,6 +23,17 @@ source venv/bin/activate
 ```
 uvicorn main:app --reload
 ```
+
+##### Si no esta instaldo pip en ubuntu
+```
+sudo apt install python3-pip
+```
+
+##### Si no esta instalado virtualenv
+```
+pip install virtualenv
+```
+
 
 
 
